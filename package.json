@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "description": "My personal portfolio",
+  "author": "Steve Smodish",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
