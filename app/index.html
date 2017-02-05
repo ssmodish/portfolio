@@ -2,18 +2,42 @@
 <html>
 <head>
 	<title>Steve Smodish</title>
-    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
-        <header class="nav navbar">
-            Navbar
-        
-        </header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Steve Smodish</a>
+                </div>
+
+                <!-- Collect the nav links for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 
         <h1>Steve Smodish</h1>
         <h2>Audio Production, Video Editing, Web Development</h2>
 
     </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
