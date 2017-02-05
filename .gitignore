@@ -1,1 +1,4 @@
 node_modules/
+app/js/
+Scripts/
+app/css/bootstrap.min.css
