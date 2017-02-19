@@ -2,7 +2,16 @@
   "name": "portfolio",
   "description": "My personal portfolio",
   "author": "Steve Smodish",
-  "dependencies": {
-    "bootstrap": "^3.3.7"
-  }
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmodish/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssmodish/portfolio/issues"
+  },
+  "homepage": "https://github.com/ssmodish/portfolio#readme"
 }
