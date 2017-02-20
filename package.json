@@ -2,7 +2,9 @@
   "name": "portfolio",
   "description": "My personal portfolio",
   "author": "Steve Smodish",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  },
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {},
