@@ -9,72 +9,115 @@
     <meta name="description" content="Steve Smodish's Portfolio">
     <meta name="author" content="Steve Smodish">
 
-    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-    <header>
-        <h1 id="main-title">Steve Smodish</h1>
-        <h2 id="main-title--tagline">Audio, Video, and Web Production</h2>
 
-        <nav>
-            <ul>
-                <li><a href="#">Employment</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Examples</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Steve Smodish</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Employment</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
     <div class="container">
+
+        <div class="jumbotron">
+            <h1>Steve Smodish</h1>
+            <p>Audio, Video, and Web Production</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact</a></p>
+        </div>
+
+
         <section id="employment-section" class="section">
-            <h1 class="section-title">Employment</h1>
-            <h2 class="section-title-sub">Summary</h2>
+            <div class="section-head">
+                <h1 class="section-title">Employment</h1>
+                <h2 class="section-title-sub"><em>Summary</em></h2>
+            </div>
 
             <article class="article">
-                <h1 class="article-title">Freelance Work</h1>
-                <h3 class="article-dates">1991-Present</h3>
-                <p class="article-text">Working in the Entertainment Business I've taken gigs my whole working life, from wrapping video cables during a Hurricanes game or running sound for local bands to designing CD covers it's always interesting. I am also called upon to fix/build computers from time to time.</p>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h1 class="article-title">Freelance Work</h1>
+                        <h3 class="article-dates">1991-Present</h3>
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="article-text">Working in the Entertainment Business I've taken gigs my whole working life, from wrapping video cables during a Hurricanes game or running sound for local bands to designing CD covers it's always interesting. I am also called upon to fix/build computers from time to time.</p>
+                    </div>
+                </div>
             </article>
 
             <article>
-                <h1 class="article-title">Echo Beach Studios</h1>
-                <h2 class="article-title-sub">Head Engineer</h2>
-                <h3 class="article-dates">1995-2012</h3>
-                <p>Echo Beach Studios generally had the owner and two or three employees of my time there. This meant that essentially everything but paying the bills was my responsibility. From philosophising about the nature and future of the music business with clients to grocery shopping and cleaning toilets, such was the nature of my employment. I developed a love hate relationship with the Macintosh here.</p>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h1 class="article-title">Echo Beach Studios</h1>
+                        <h2 class="article-title-sub">Head Engineer</h2>
+                        <h3 class="article-dates">1995-2012</h3>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Echo Beach Studios generally had the owner and two or three employees during my time there. This meant that essentially everything but paying the bills was my responsibility. From philosophising about the nature and future of the music business with clients to grocery shopping and cleaning toilets, such was the nature of my employment. I developed a love hate relationship with the Macintosh here.</p>
+                    </div>
+                </div>
             </article>
 
             <article>
-                <h1></h1>
-                <h2></h2>
-                <p></p>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h1></h1>
+                        <h2></h2>
+                    </div>
+                    <div class="col-sm-9">
+                        <p></p>
+                    </div>
+                </div>
             </article>
 
         </section>
 
-        <section id="education-section">
-            <h1>Education</h1>
+        <section id="education-section" class="section">
+
+            <div class="section-head"><h1>Education</h1></div>
             <article>
                 <h1>Florida Atlantic University</h1>
-                <h2></h2>
-                <p></p>
+                <h2>B.S. General Studies</h2>
+                <h3>College of Engineering</h3>
+                <p>2016</p>
             </article>
             <article>
                 <h1>Palm Beach State College</h1>
-                <h2></h2>
-                <p></p>
+                <h2>A.S. Internet Services Technology</h2>
+                <p>2015</p>
             </article>
             <article>
                 <h1>Full Sail Center for the Recording Arts</h1>
-                <h2></h2>
-                <p></p>
+                <h2>Specialized Associates Degree in Recording Engineering</h2>
+                <p>1995</p>
             </article>
         </section>
 
-        <section id="examples-section">
+        <section id="examples-section" class="section">
             <h1>Examples</h1>
             <a href="#">Mojo Le Fay</a>
             <a href="#">FAU Projects</a>
@@ -84,7 +127,7 @@
             <a href="#">c9 projects?</a>
         </section>
 
-        <section id="contact-section">
+        <section id="contact-section" class="section">
             <h1>Contact</h1>
             <p>Steve Smodish</p>
             <p>stevesmodish at g mail</p>
@@ -92,7 +135,9 @@
             <p>LinkedIn</p>
         </section>
     </div>
-    
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
