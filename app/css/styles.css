@@ -54,10 +54,29 @@ article p {
 }
 
 .thumbnail {
-    max-height: 500px;
+    height: 375px;
 }
 
 .thumbnail img {
     max-width:100%;
-    max-height:100%;
+    max-height:150px;
+}
+
+#contact-section {
+    font-size: 3rem;
+    text-align: center;  
+}
+
+#contact-section h2 {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+#contact-section ul {
+    list-style: none;
+}
+
+#contact-section li {
+    display: inline-block;
+    padding: 0px 30px;
 }
