@@ -1,129 +1,29 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <title>Steve Smodish's Portfolio Site</title>
-    <meta name="description" content="Steve Smodish's Portfolio">
-    <meta name="author" content="Steve Smodish">
-
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <title>Steve Smodish's Portfolio</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Steve Smodish</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden"><a href="#">Employment</a></li>
-                    <li class="hidden"><a href="#">Education</a></li>
-                    <li><a href="index.html">Examples</a></li>
-                    <li class="hidden"><a href="#">Contact</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="container">
-
-        <div class="jumbotron">
-            <h1>Steve Smodish</h1>
-            <p>Audio, Video, and Web Production</p>            
-        </div>
-
-        <section id="examples-section" class="section">
-            <div class="section-head">
-                <h1>Examples</h1>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/Mojo.PNG" alt="Mojo Le Fay">
-                        <div class="caption">
-                            <h3>Mojo Le Fay</h3>
-                            <p>My First Customer!</p>
-                            <p><a href="http://www.mojolefay.com" class="btn btn-success" role="button">Go</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/Florida_Atlantic_University_seal.svg.png" alt="FAU Logo" />
-                        <div class="caption">
-                            <h3>FAU Projects</h3>
-                            <p>This collection of pages are the results of assignments from my web programming class</p>
-                            <p>I have temporarily decided to post them in their occasionally unfinished state.</p>
-                            <p><a href="https://lamp.cse.fau.edu/~ssmodish" class="btn btn-success" role="button">Are You Prepared?</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/yelpcamp.PNG" alt="YelpCamp" />
-                        <div class="caption">
-                            <h3>Web Dev Bootcamp</h3>
-                            <p>Results of the big code along.</p>
-                            <p>Hosted on Heroku, please be patient for it to spin up.</p>
-                            <p><a href="https://young-hamlet-81768.herokuapp.com/" class="btn btn-primary" role="button">App</a><a href="https://github.com/ssmodish/travelSite" class="btn btn-success">Code</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="GitHub Logo">
-                        <div class="caption">
-                            <h3>GitHub Projects</h3>
-                            <p>The results of random projects</p>
-                            <p><a href="https://github.com/ssmodish" class="btn btn-success" role="button">Github</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 ">
-                    <div class="thumbnail hidden">
-                        <img src="https://upswing.io/assets/img/watch/palmbeachstate_logo_color.png" alt="PBSC Logo">
-                        <div class="caption">
-                            <h3>PBSC Projects</h3>
-                            <p>Random bits in random languages, I took Java, Basic, and Server Side Programming classes as well as Data Structures(SQL).</p>
-                            <p>These classes covered PHP, JSP, Java, and Visual Basic for both Windows and web (ASP) programming.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact-section" class="section">
-            <h1>Contact</h1>
-            <h2>Steve Smodish</h2>
-            <ul>
-                <li><a href="mainto://stevesmodish@gmail.com">Email</a></li>
-                <li><a href="https://www.github.com/ssmodish">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/stevesmodish/">LinkedIn</a></li>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Steve Smodish</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
             </ul>
-        </section>
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+        </div>
+    </nav>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
+
 </html>
