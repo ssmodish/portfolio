@@ -9,6 +9,18 @@ body {
     flex: 1 0 auto;
   }
 
+  img {
+    display: block;
+    max-height: 70%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
   .main-content {
       margin-top: 40px;
+  }
+
+  .card {
+    height: 650px;
   }
